@@ -15,7 +15,7 @@ const studentSchema = new Schema({
   },
   StateCode: {
     type: String,
-    required: true
+    ref: 'State'
   }
 });
 
